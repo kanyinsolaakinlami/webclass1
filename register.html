@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form>
+        <div>
+            <label for="fullname">Full Name</label>
+        </div>
+<div>
+    <input type="text" name="fullname" id="fullname" placeholder="emma daniels"required>
+</div>    
+        <div>
+           
+            <label for="Email">Email</label>
+        </div>
+<div>
+    <input type="Email" name="Email" id="Email" placeholder="emmadaniels@gmail.com"required>
+</div>
+
+        <div>
+           
+            <label for="Password">Password</label>
+        </div>
+<div>
+    <input type="password" name="password" id="password"required>
+</div>
+<div>
+    <label for="gpz">Geo Political Zones</label>
+</div>
+<div>
+<select name="gpz" id="gpz"required>
+    <option value="South-South">South-South</option>
+    <option value="North-East">North-East</option>
+    <option value="South-West">South-West</option>
+</select>
+</div>
+<div>
+    <label for="gender">Gender</label required>
+</div>
+<div>
+<label for="male">male</label> 
+<input type="radio" name="gender" id="male">
+</div>
+<div>
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="female">
+</div>
+<div>
+           
+    <label for="DOB">Date Of Birth</label>
+</div>
+<div>
+<input type="Date" name="Date" id="Date"required>
+</div>
+<div>
+               
+    <label for="passport">passport</label>
+</div>
+<div>
+<input type="file" name="passport" id="passport">
+</div>
+    <div>
+               
+        <label for="credentials">credentials</label>
+    </div>
+    <div>
+    <input type="file" name="credentials" id="credentials"multiple required>
+    </div>
+    <div>
+        <label for="message">Leave A Message</label>
+    </div>
+    <div>
+        <textarea name="message" id="message" cols="30" rows="10" maxlength="40"></textarea required>
+    </div>
+    <div>
+        <button type="submit" >Submit</button>
+    </div>
+    </form>
+</body>
+</html>
